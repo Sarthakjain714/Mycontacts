@@ -18,8 +18,8 @@ public class openactivity extends Activity {
         setContentView(R.layout.detailspage);
         Intent i = getIntent();
 
-        String contactname = i.getStringExtra("contactname");
-        String phonenumber = i.getStringExtra("phonenumber");
+        String contactname = i.getStringExtra("AadmiKanaam");
+        String phonenumber = i.getStringExtra("Phon nambar");
 
 
         callkro=findViewById(R.id.call);
